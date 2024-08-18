@@ -1,0 +1,45 @@
+{
+  "app_name": "Basic Redis chat app in Golang",
+  "description": "Showcases how to implement chat app in Golang",
+  "type": "App",
+  "contributed_by": "Redis",
+  "repo_url": "https://github.com/redis-developer/basic-redis-chat-demo-go",
+  "preview_image_url": "https://raw.githubusercontent.com/redis-developer/basic-redis-chat-demo-go/master/images/app_preview_image.png",
+  "download_url": "https://github.com/redis-developer/basic-redis-chat-demo-go/archive/main.zip",
+  "hosted_url": "",
+  "quick_deploy": "true",
+  "deploy_buttons": [
+    {
+      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/basic-redis-chat-demo-go"
+    },
+    {
+      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/basic-redis-chat-demo-go.git"
+    }
+  ],
+  "language": [
+    "Go"
+  ],
+  "redis_commands": [
+    "SET",
+    "SETEX",
+    "GET",
+    "DEL",
+    "RPUSH",
+    "LINDEX",
+    "LLEN",
+    "LRANGE",
+    "SUBSCRIBE",
+    "PUBLISH"
+  ],
+  "redis_use_cases": [
+    "Pub/Sub"
+  ],
+  "redis_features": [],
+  "app_image_urls": [
+    "https://github.com/redis-developer/basic-redis-chat-demo-go/raw/master/docs/screenshot001.png"
+  ],
+  "youtube_url": "https://www.youtube.com/watch?v=miK7xDkDXF0",
+  "special_tags": [],
+  "verticals": [],
+  "markdown": "https://github.com/redis-developer/basic-redis-chat-demo-go/raw/master/README.md"
+}

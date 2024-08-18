@@ -1,0 +1,25 @@
+{
+  "name": "Basic Redis Leaderboard Demo Golang",
+  "description": "List of top 100 companies",
+  "stack": "container",
+  "repository": "https://github.com/redis-developer/basic-redis-chat-demo-go",
+  "logo": "https://redis.io/images/redis-white.png",
+  "keywords": ["golang", "gin", "redis", "chat"],
+  "addons": ["rediscloud:30"],
+  "env": {
+    "REDIS_ADDRESS": {
+      "description": "Redis server address host:port",
+      "required": true
+    },
+    "REDIS_PASSWORD": {
+	    "description": "Redis server password",
+	    "required": true
+    },
+    "CLIENT_LOCATION": {
+      "description": "Public path to frontend, as example: `/api/public`"
+    },
+    "SERVER_ADDRESS": {
+      "description": "Api public host:port, as example: `:5000`"
+    }
+  }
+}
